@@ -26,7 +26,7 @@ st.write("Predict whether a person is likely to buy insurance based on age.")
 # -------------------------------
 # Load Dataset
 # -------------------------------
-df = pd.read_csv("/content/insurance_data.csv")
+df = pd.read_csv("insurance_data.csv")
 
 st.subheader("Dataset")
 st.dataframe(df)
